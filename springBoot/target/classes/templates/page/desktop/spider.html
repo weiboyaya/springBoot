@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" ></meta>
+<script src="/common/jquery/jquery-1.8.2.min.js"></script>
+<style type="text/css">
+	html,.main{
+		font-size:13px;
+		font-family: verdana,arial,sans-serif;
+	}
+	#input_url {
+		width:80%;
+	}
+	#input_start{
+		cursor:pointer;
+		font-size:13px;
+		font-family: verdana,arial,sans-serif;
+	}
+	
+	.result-title{
+		color:red;
+		font-weight:bold;
+	}
+	
+	.head_tr{
+		font-weight:bold;
+		background-color:#a4a4da;
+	}
+	.head_td{
+		text-align:center;
+	}
+	table.altrowstable {
+		font-family: verdana,arial,sans-serif;
+		font-size:13px;
+		color:#333333;
+		border-width: 1px;
+		border-color: #a9c6c9;
+		border-collapse: collapse;
+		width:96%;
+	}
+	table.altrowstable th {
+		border-width: 1px;
+		padding: 8px;
+		border-style: solid;
+		border-color: #a9c6c9;
+	}
+	table.altrowstable td {
+		border-width: 1px;
+		padding: 8px;
+		border-style: solid;
+		border-color: #a9c6c9;
+	}
+	.oddrowcolor{
+		background-color:#d4e3e5;
+	}
+	.evenrowcolor{
+		background-color:#c3dde0;
+	}
+	
+</style>
+<script type="text/javascript" src="page/desktop/spider.js" >  
+</script>
+</head>
+
+<body>
+	<div class="main">
+    地址:<input type="text" id="input_url"></input>
+	<input type="button" id="input_start" value="爬取图片" ></input>
+	<br></br>
+	<div id="result_data"></div>
+	</div>
+</body>
+</html>
