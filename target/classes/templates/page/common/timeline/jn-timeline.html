@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"></meta>
+
+    <link rel="stylesheet" type="text/css" href="page/common/timeline/jn-timeline.css"></link>
+	
+    <script src="common/jquery/jquery-1.8.2.min.js"></script>
+    <script src="page/common/timeline/jn-timeline.js"></script>
+
+	
+</head>
+
+<body>
+   <div id="timeline" style="float:left;width:100%;height:100%;" ></div>
+	
+   <script type="text/javascript">
+	   window.onload = function init(){
+		   Common.Timeline.init();
+		   Common.Timeline.nodeChildFlow();
+	   } 
+   </script>
+</body>
+
+</html>

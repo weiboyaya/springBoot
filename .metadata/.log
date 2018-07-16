@@ -1,0 +1,173 @@
+!SESSION 2018-04-26 15:59:42.636 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data F:\MYSELF_ALL_WORKSPACE\test_workspace\springBoot -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-26 15:59:51.083
+!MESSAGE NLS unused message: bensonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-26 15:59:51.088
+!MESSAGE NLS unused message: bensonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-26 15:59:51.089
+!MESSAGE NLS missing message: hudsonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-26 15:59:51.089
+!MESSAGE NLS missing message: hudsonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+!SESSION 2018-04-27 10:42:22.444 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-27 10:42:27.359
+!MESSAGE NLS unused message: bensonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-27 10:42:27.390
+!MESSAGE NLS unused message: bensonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-27 10:42:27.391
+!MESSAGE NLS missing message: hudsonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-27 10:42:27.391
+!MESSAGE NLS missing message: hudsonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+!SESSION 2018-07-09 10:49:07.124 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-09 10:50:59.009
+!MESSAGE NLS unused message: bensonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-09 10:50:59.036
+!MESSAGE NLS unused message: bensonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-09 10:50:59.036
+!MESSAGE NLS missing message: hudsonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-09 10:50:59.037
+!MESSAGE NLS missing message: hudsonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+!SESSION 2018-07-09 17:39:22.362 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data F:\MYSELF_ALL_WORKSPACE\test_workspace\springBoot -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-09 17:39:27.717
+!MESSAGE NLS unused message: bensonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-09 17:39:27.723
+!MESSAGE NLS unused message: bensonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-09 17:39:27.724
+!MESSAGE NLS missing message: hudsonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-09 17:39:27.725
+!MESSAGE NLS missing message: hudsonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-07-09 17:40:54.468
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.maven.ide.eclipse.internal.index.IndexUpdaterJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-07-09 17:40:54.468
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.maven.ide.eclipse.internal.repository.RepositoryRegistryUpdateJob
+
+!ENTRY org.maven.ide.eclipse 4 0 2018-07-09 17:40:54.924
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: transfer has been cancelled by user
+	at org.maven.ide.eclipse.internal.index.AsyncFetcher$PipedErrorInputStream.checkError(AsyncFetcher.java:181)
+	at org.maven.ide.eclipse.internal.index.AsyncFetcher$PipedErrorInputStream.read(AsyncFetcher.java:188)
+	at java.io.PipedInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.codehaus.plexus.util.IOUtil.copy(IOUtil.java:188)
+	at org.codehaus.plexus.util.IOUtil.copy(IOUtil.java:174)
+	at org.codehaus.plexus.util.FileUtils.copyStreamToFile(FileUtils.java:1108)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$LocalCacheIndexAdaptor.setIndexFile(DefaultIndexUpdater.java:868)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:995)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1072)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1025)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:632)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.IOException: transfer has been cancelled by user
+	at org.maven.ide.eclipse.internal.index.AsyncFetcher$RequestHandler.checkCancel(AsyncFetcher.java:225)
+	at org.maven.ide.eclipse.internal.index.AsyncFetcher$RequestHandler.onBodyPartReceived(AsyncFetcher.java:232)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.updateBodyAndInterrupt(NettyAsyncHttpProvider.java:1283)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.messageReceived(NettyAsyncHttpProvider.java:1041)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:80)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:545)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:754)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleUpstream(ChunkedWriteHandler.java:144)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:545)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:754)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:131)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:80)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:545)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:754)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:302)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.unfoldAndfireMessageReceived(ReplayingDecoder.java:523)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:507)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:444)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:80)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec.handleUpstream(HttpClientCodec.java:77)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:545)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:540)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:274)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:261)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:350)
+	at org.jboss.netty.channel.socket.nio.NioWorker.processSelectedKeys(NioWorker.java:281)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:201)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.IoWorkerRunnable.run(IoWorkerRunnable.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2018-07-09 17:40:55.705 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-09 17:41:00.934
+!MESSAGE NLS unused message: bensonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-09 17:41:00.938
+!MESSAGE NLS unused message: bensonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-09 17:41:00.939
+!MESSAGE NLS missing message: hudsonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-09 17:41:00.940
+!MESSAGE NLS missing message: hudsonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+!SESSION 2018-07-10 09:40:00.258 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data F:\MYSELF_ALL_WORKSPACE\test_workspace\springBoot -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-10 09:40:05.495
+!MESSAGE NLS unused message: bensonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-10 09:40:05.517
+!MESSAGE NLS unused message: bensonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-10 09:40:05.518
+!MESSAGE NLS missing message: hudsonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-10 09:40:05.519
+!MESSAGE NLS missing message: hudsonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
